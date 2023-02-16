@@ -1,0 +1,34 @@
+body{
+    background-color: #3b2e42;
+}
+
+h2{
+    font-size: 50px !important;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+p{
+    font-size: 23px;
+}
+
+/* Barra scroll*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+    
+    /* Track */
+::-webkit-scrollbar-track {
+    background: #423549; 
+}
+    
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fa4347; 
+}
+    
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fa4347; 
+}

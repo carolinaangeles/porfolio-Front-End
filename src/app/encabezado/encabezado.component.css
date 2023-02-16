@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background: url(../../assets/images/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+} 
+
+.banner .waves{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    left:0;
+}
+
+
+h1,h3{
+    color: #3b2e42;
+    font-family: 'Montserrat', sans-serif;
+  }
+h1{
+    font-size:60px;
+}
+img{
+    margin-top: 10vh;
+}
