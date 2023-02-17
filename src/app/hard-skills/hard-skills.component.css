@@ -1,0 +1,41 @@
+section{
+    background-color: #fa4347;
+}
+
+article{
+    padding: 50px;
+}
+
+svg{
+    width: 150px;
+    height: 150px;
+}
+
+p, h3{
+    color: #423549;
+    text-align: center !important;
+}
+
+h2{
+    color: #423549;
+}
+
+#soft-title{
+    text-align: end;
+}
+
+li{
+    color: #423549;
+    font-size: 25px;
+}
+
+.flex-container{
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div{
+    padding:40px;
+}
