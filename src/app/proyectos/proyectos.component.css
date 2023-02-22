@@ -1,6 +1,24 @@
 section{
     background-color: #423549;
+    padding:50px;
 }
 
-img{
+article{
+    padding:50px;
+    background-color: rgb(59, 46, 66);
+    width: 70%;
+}
+
+.wrap{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(src/assets/images/RescateCapuchino.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    color: #fa4347;
 }

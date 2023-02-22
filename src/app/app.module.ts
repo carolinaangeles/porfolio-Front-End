@@ -12,6 +12,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { HardSkillsComponent } from './hard-skills/hard-skills.component';
+import { IndexComponent } from './index/index.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { NavbarDashboardComponent } from './navbar-dashboard/navbar-dashboard.component';
+import { ExperienciaDashboardComponent } from './experiencia-dashboard/experiencia-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { HardSkillsComponent } from './hard-skills/hard-skills.component';
     NavbarComponent,
     ExperienciaComponent,
     ProyectosComponent,
-    HardSkillsComponent
+    HardSkillsComponent,
+    IndexComponent,
+    DashboardComponent,
+    NavbarDashboardComponent,
+    ExperienciaDashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -13,20 +13,11 @@ svg{
 
 p, h3{
     color: #423549;
-    text-align: center !important;
+    text-align: center;
 }
 
 h2{
     color: #423549;
-}
-
-#soft-title{
-    text-align: end;
-}
-
-li{
-    color: #423549;
-    font-size: 25px;
 }
 
 .flex-container{
@@ -38,4 +29,13 @@ li{
 
 div{
     padding:40px;
+}
+
+.soft{
+    color: #423549;
+    text-align: end;
+}
+li{
+    font-size: 25px;
+    list-style: none;
 }
