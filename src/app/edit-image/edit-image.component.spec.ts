@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HardSkillsComponent } from './hard-skills.component';
+import { EditImageComponent } from './edit-image.component';
 
-describe('HardSkillsComponent', () => {
-  let component: HardSkillsComponent;
-  let fixture: ComponentFixture<HardSkillsComponent>;
+describe('EditImageComponent', () => {
+  let component: EditImageComponent;
+  let fixture: ComponentFixture<EditImageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HardSkillsComponent ]
+      declarations: [ EditImageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HardSkillsComponent);
+    fixture = TestBed.createComponent(EditImageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
