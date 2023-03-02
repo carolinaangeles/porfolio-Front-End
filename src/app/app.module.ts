@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
@@ -19,7 +20,10 @@ import { EditAcercaDeComponent } from './edit-acerca-de/edit-acerca-de.component
 import { EditExperienciaComponent } from './edit-experiencia/edit-experiencia.component';
 import { EditEstudiosComponent } from './edit-estudios/edit-estudios.component';
 import { EditSkillsComponent } from './edit-skills/edit-skills.component';
+import { ModalComponent } from './login/modal/modal.component';
+import { ReactiveFormComponent } from './login/reactive-form/reactive-form.component';
 import { LoginComponent } from './login/login.component';
+
 
 
 @NgModule({
@@ -39,12 +43,15 @@ import { LoginComponent } from './login/login.component';
     EditExperienciaComponent,
     EditEstudiosComponent,
     EditSkillsComponent,
+    ModalComponent,
+    ReactiveFormComponent,
     LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

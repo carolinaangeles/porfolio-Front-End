@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { keyframes } from '@angular/animations';
 
 @Component({
   selector: 'app-login',
