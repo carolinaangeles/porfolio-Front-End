@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { PorfolioService } from '../servicios/porfolio.service';
 
 @Component({
   selector: 'app-encabezado',

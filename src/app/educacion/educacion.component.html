@@ -1,7 +1,16 @@
 <section>
     <article>
         <h2>ESTUDIOS</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores aspernatur expedita ut perferendis, optio quidem tempora quos soluta. Ullam mollitia a aliquam deserunt exercitationem ut est minima commodi eligendi.</p>
+        <ul id="experiencia"  *ngFor="let data of studies">
+            <div id="title">
+                <li>
+                    <h3>{{data.title}}</h3>
+                </li>
+                <li>
+                    <p>{{data.institution}},  {{data.date}}</p> 
+                </li>
+            </div>
+        </ul>
     </article>
 </section>
 <app-edit-estudios></app-edit-estudios>

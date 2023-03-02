@@ -2,8 +2,11 @@
 <section>
     <article>
         <h2 class="titulo-experiencia">EXPERIENCIA</h2>
-        <div id="experiencia">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ut corporis repellat molestiae nulla sunt excepturi necessitatibus maxime quo consequuntur voluptatum eius tempora aliquid animi temporibus repudiandae, facere accusamus ipsam!</p>
+        <div id="experiencia"  *ngFor="let data of experience">
+            <h3>{{data.position}}</h3>
+            <h5>{{data.company}}</h5> 
+            <h5>{{data.date}}</h5>
+            <p>{{data.description}}</p>
         </div>
     </article>
 </section>
