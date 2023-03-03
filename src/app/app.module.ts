@@ -5,47 +5,41 @@ import { Observable } from 'rxjs';
 import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component';
-import { EncabezadoComponent } from './encabezado/encabezado.component';
-import { AcercaDeComponent } from './acerca-de/acerca-de.component';
-import { EducacionComponent } from './educacion/educacion.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { ExperienciaComponent } from './experiencia/experiencia.component';
-import { ProyectosComponent } from './proyectos/proyectos.component';
-import { IndexComponent } from './index/index.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { SkillsComponent } from './skills/skills.component';
-import { EditImageComponent } from './edit-image/edit-image.component';
-import { EditAcercaDeComponent } from './edit-acerca-de/edit-acerca-de.component';
-import { EditExperienciaComponent } from './edit-experiencia/edit-experiencia.component';
-import { EditEstudiosComponent } from './edit-estudios/edit-estudios.component';
-import { EditSkillsComponent } from './edit-skills/edit-skills.component';
-import { ModalComponent } from './login/modal/modal.component';
-import { ReactiveFormComponent } from './login/reactive-form/reactive-form.component';
+import { AppComponent } from './app.component'
+import { AboutMeComponent } from './components/component/about-me/about-me.component';
+import { ExperienceComponent } from './components/component/experience/experience.component';
+import { HeaderComponent } from './components/component/header/header.component';
+import { NavbarComponent } from './components/component/navbar/navbar.component';
+import { ProyectsComponent } from './components/component/proyects/proyects.component';
+import { SkillsComponent } from './components/component/skills/skills.component';
+import { StudiesComponent } from './components/component/studies/studies.component';
+import { EditAboutMeComponent } from './components/edit/edit-about-me/edit-about-me.component';
+import { EditExperienceComponent } from './components/edit/edit-experience/edit-experience.component';
+import { EditSkillsComponent } from './components/edit/edit-skills/edit-skills.component';
+import { EditStudiesComponent } from './components/edit/edit-studies/edit-studies.component';
 import { LoginComponent } from './login/login.component';
+import { IndexComponent } from './components/component/index/index.component';
+import { ServicioService } from './servicies/servicio.service';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EncabezadoComponent,
-    AcercaDeComponent,
-    EducacionComponent,
-    NavbarComponent,
-    ExperienciaComponent,
-    ProyectosComponent,
+    AboutMeComponent,
+    ExperienceComponent,
+    HeaderComponent,
     IndexComponent,
-    DashboardComponent,
+    NavbarComponent,
+    ProyectsComponent,
     SkillsComponent,
-    EditImageComponent,
-    EditAcercaDeComponent,
-    EditExperienciaComponent,
-    EditEstudiosComponent,
+    StudiesComponent,
+    EditAboutMeComponent,
+    EditExperienceComponent,
     EditSkillsComponent,
-    ModalComponent,
-    ReactiveFormComponent,
+    EditStudiesComponent,
     LoginComponent
+    
   ],
   imports: [
     BrowserModule,

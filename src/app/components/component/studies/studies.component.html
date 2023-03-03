@@ -1,0 +1,19 @@
+<section>
+    <article>
+        <div class="edit">
+            <h2 style = "float: left">ESTUDIOS</h2>
+            <app-edit-studies></app-edit-studies>
+        </div>
+        <ul id="experiencia"  *ngFor="let data of studies">
+            <div id="title">
+                <li>
+                    <h3>{{data.title}}</h3>
+                    
+                </li>
+                <li>
+                    <p>{{data.institution}},  {{data.date}}</p> 
+                </li>
+            </div>
+        </ul>
+    </article>
+</section>

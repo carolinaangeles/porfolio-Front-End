@@ -1,0 +1,13 @@
+
+<section>
+    <article>
+        <h2 class="titulo-experience" style = "float: left">experience</h2>
+        <app-edit-experience></app-edit-experience>
+        <div id="experience"  *ngFor="let data of experience">
+            <h3>{{data.position}}</h3>
+            <h5>{{data.company}}</h5> 
+            <h5>{{data.date}}</h5>
+            <p>{{data.description}}</p>
+        </div>
+    </article>
+</section>

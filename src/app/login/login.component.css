@@ -1,20 +1,58 @@
-
-
-.css-selector {
-    background: linear-gradient(309deg, #291f2e, #3b2e42, #423549, #61516b, #423549, #3b2e42, #291f2e);
-    background-size: 1400% 1400%;
-
-    -o-animation: AnimationName 3s ease infinite;
-    animation: AnimationName 3s ease infinite;
+section {
+	height: 100%;
+	background: linear-gradient(-45deg, #291f2e, #3b2e42, #423549, #61516b,   #423549, #3b2e42, #291f2e);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
 }
 
-@-o-keyframes AnimationName {
-    0%{background-position:2% 0%}
-    50%{background-position:99% 100%}
-    100%{background-position:2% 0%}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
-@keyframes AnimationName {
-    0%{background-position:2% 0%}
-    50%{background-position:99% 100%}
-    100%{background-position:2% 0%}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
+
+
+.access{
+    padding:50px;
+    padding-bottom: 150px;
+    margin:75px;
+    background-color: #3b2e42;
+}
+
+h2 {
+    color:#fa4347;
+    text-align: center;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+}
+button{
+    background-color: #fa4347;
+    color: #423549;
+    border-style:none; 
+    border-radius: 0px;
+    height: 50px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #ff5a5c;
+    color: #423549;
+    border-style:none; 
+    border-radius: 0px;
+    height: 50px;
+}
+

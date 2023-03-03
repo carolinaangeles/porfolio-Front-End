@@ -1,0 +1,22 @@
+<section>
+  <div class="container-fluid">
+
+      <div class="row align-items-start">
+          <div class="col-3">
+          </div>
+          <div class="col-8">
+              <h2 class="titulo-acerca-de" style = "float: left">ACERCA DE MÍ</h2>
+              <app-edit-about-me></app-edit-about-me>
+          </div>
+      </div>
+
+      <div class="row align-items-start">
+        <div class="col-3">
+        </div>
+        <div *ngFor="let datos of aboutMe" class="col-9 " id="acerca-de">
+          <p>{{datos.paragraph}}</p>
+        </div>
+      </div>
+
+  </div>
+</section>
