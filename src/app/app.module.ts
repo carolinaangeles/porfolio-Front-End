@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { AppRoutingModule } from './app-routing.module';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component'
 import { AboutMeComponent } from './components/component/about-me/about-me.component';
@@ -19,7 +19,8 @@ import { EditSkillsComponent } from './components/edit/edit-skills/edit-skills.c
 import { EditStudiesComponent } from './components/edit/edit-studies/edit-studies.component';
 import { LoginComponent } from './login/login.component';
 import { IndexComponent } from './components/component/index/index.component';
-import { ServicioService } from './servicies/servicio.service';
+import { ReactiveFormLoginComponent } from './login/reactive-form-login/reactive-form-login.component';
+import { ReactiveFormRegisterComponent } from './login/reactive-form-register/reactive-form-register.component';
 
 
 
@@ -38,7 +39,9 @@ import { ServicioService } from './servicies/servicio.service';
     EditExperienceComponent,
     EditSkillsComponent,
     EditStudiesComponent,
-    LoginComponent
+    LoginComponent,
+    ReactiveFormRegisterComponent,
+    ReactiveFormLoginComponent
     
   ],
   imports: [

@@ -6,9 +6,7 @@ import { FormControl, FormBuilder, Validators, AbstractControl, FormGroup} from 
   templateUrl: './reactive-form-register.component.html',
   styleUrls: ['./reactive-form-register.component.css']
 })
-export class ReactiveFormComponent implements OnInit{
-
-  title = 'porfolio';
+export class ReactiveFormRegisterComponent implements OnInit{
 
   //campos reactivos
   form: FormGroup = new FormGroup({

@@ -8,11 +8,9 @@ import { FormControl, FormBuilder, Validators, AbstractControl, FormGroup} from 
   styleUrls: ['./reactive-form-login.component.css']
 })
 
-//EDITAAAAAAAAAR
+//EDITAAAAAAAAAR formularios sin usar
 
 export class ReactiveFormLoginComponent implements OnInit{
-
-  title = 'porfolio';
 
   //campos reactivos
   form: FormGroup = new FormGroup({
